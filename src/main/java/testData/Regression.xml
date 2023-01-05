@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke">
+	<test name="LoginTest">
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="fullName" value="ddbccbdw" />
+		<parameter name="companyName" value="Apple" />
+		<parameter name="email" value="x@gmail.com" />
+		<parameter name="phone" value="a344251" />
+		<parameter name="address" value="ycogdwc" />
+		<parameter name="city" value="Carroltan" />
+		<parameter name="country" value="India" />
+		<parameter name="state" value="TX" />
+		<parameter name="zip" value="a31134" />
+
+		<classes>
+
+
+		 <class name="PageTest.LoginPageTest"/>
+		<class name="PageTest.AddCustomerTest"/>
+       </classes>
+
+
+
+
+
+
+	</test>
+
+
+
+
+
+
+
+</suite>
